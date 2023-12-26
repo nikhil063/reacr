@@ -34,12 +34,12 @@ export default function Blog() {
 
     return (
         <>
-            <div>
+            {/* <div>
                 <text>Destructure</text>
             </div>
             <div>
             {disp(obj1)}
-            </div>
+            </div> */}
             <div>
                 Counter
             </div>
