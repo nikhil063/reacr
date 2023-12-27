@@ -45,7 +45,7 @@ export default function Blog() {
             </div>
             <div>
                 <button onClick={()=>{count <= 0 ? setCount(0) : setCount(count-1)}}>-</button>
-                <input type="number" max={10} value={count} onChange={(e)=>{setCount(e.target.value)}} />
+                <input type="number" max={10} value={count} onChange={(e)=>{setCount(parseInt(e.target.value))}} />
                 <button onClick={()=>{count >= 10 ? setCount(10) : setCount(count + 1 )}}>+</button>
             </div>
         </>
