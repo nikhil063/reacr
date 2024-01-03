@@ -5,6 +5,7 @@ import Blog from './pages/Blog';
 import Home from './pages/Home';
 import BlogId from './pages/BlogId';
 import Incre from './pages/Incre';
+import BlogNid from './pages/BlogNid';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/blog/:id" element={<BlogId />} />
+        </Routes>
+        <Routes>
+          <Route path="/blog/:id/:nid" element={<BlogNid />} />
         </Routes>
         <Routes>
           <Route path="/incre" element={<Incre />} />
